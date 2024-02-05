@@ -1,16 +1,10 @@
-# graphqlflutter
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+dart version: 3.2.4
+graphql_flutter: ^5.1.0
+http: 0.13.4
+api: https://rickandmortyapi.com/graphql
+Notice: use CircularProgressIndicator for waiting load data from api.
+All step: 
+1. Install plugin graphql_flutter and http.
+2. Write function fetchData (use asynce await).
+3. Write body app(using Lisview.builder)
+=> data will be stored in cache (use HiveStore to get the best performance)
